@@ -34,6 +34,7 @@ The issue with `Record` is that nested `Record`s are difficult to deal with, so 
 
 However, I prefer router 5:
 
+* yarn add `router5`
 * yarn add `react-router5`
 * yarn add `redux-router5`
 
