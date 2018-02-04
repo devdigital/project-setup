@@ -20,8 +20,8 @@
 
 Either:
 
-a) Use `Record` which allows dot notation in presentational components
-b) Use `fromJS()` on objects (`Map`) and collections (`List`), and use a higher order component to convert `toJS()` for your presentational components
+1. Use `Record` which allows dot notation in presentational components
+2. Use `fromJS()` on objects (`Map`) and collections (`List`), and use a higher order component to convert `toJS()` for your presentational components
 
 The issue with `Record` is that nested `Record`s are difficult to deal with, so the HOC approach is preferred.
 
